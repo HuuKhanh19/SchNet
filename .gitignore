@@ -1,0 +1,44 @@
+# Cache & build
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Model weights & checkpoints
+*.pt
+*.pth
+*.pkl
+*.ckpt
+*.bin
+
+# Data files (heavy)
+*.csv
+*.sdf
+*.h5
+*.npy
+*.npz
+
+# Logs & temp
+*.log
+*.dat
+*.result
+*.data
+*.bak
+*.tmp
+
+# Virtual env
+venv/
+env/
+
+# IDE & OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+.env
+
+# Always keep .gitkeep (to preserve empty directory structure)
+!.gitkeep
+experiments/
+logs/
