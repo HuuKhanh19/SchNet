@@ -1,0 +1,49 @@
+# ============================================================================
+# Single config file for SchNet training (multi-conformer hierarchical).
+# Edit values here, then run:  python train.py --config config.yaml
+# ============================================================================
+
+# --- Which dataset & split to use ---
+dataset:    esol            # esol | freesolv | lipo | bace
+data_root:  ./data
+split_seed: 4               # 0..4 — picks data_split/<dataset>/seed_<i>/
+
+# --- Multi-conformer ---
+K: 5                        # conformers per molecule (cache key includes K)
+
+# --- Reproducibility (model init / data shuffling, NOT the scaffold split) ---
+torch_seed: 42
+
+# --- Training loop ---
+batch_size:    32
+epochs:        300
+lr:            1.0e-3
+weight_decay:  1.0e-5
+patience:      100          # early stopping: epochs without val improvement
+grad_clip:     1.0
+
+# --- LR scheduler (ReduceLROnPlateau on the val metric) ---
+scheduler:
+  factor:   0.5
+  patience: 25
+  min_lr:   1.0e-6
+
+# --- SchNet model ---
+schnet:
+  hidden_channels:     128
+  num_filters:         128
+  num_interactions:    6
+  num_gaussians:       50
+  cutoff:              5.0
+  max_num_neighbors:   32
+  atom_readout:        add        # atoms -> conf  (extensive: SUM)
+  conf_readout:        mean       # conf  -> mol   (average across conformers)
+  interaction_dropout: 0.3
+
+# --- Checkpointing ---
+save_checkpoints: true                # save best model weights to disk
+checkpoint_dir:   ./checkpoints       # → <dir>/<dataset>_seed{i}_K{K}_best.pt
+
+# --- Misc ---
+device:      auto                     # auto | cpu | cuda
+num_workers: 0                        # 0 is fine for in-memory data

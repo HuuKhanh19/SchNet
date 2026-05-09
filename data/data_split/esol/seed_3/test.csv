@@ -1,0 +1,112 @@
+name,smiles,ESOL_predicted,measured
+Minoxidil,Nc1cc(N2CCCCC2)nc(N)[n+]1[O-],-1.809,-1.989
+Cyfluthrin,CC1(C)C(C=C(Cl)Cl)C1C(=O)OC(C#N)c1ccc(F)c(Oc2ccccc2)c1,-6.84,-7.337000000000001
+Deltamethrin,CC1(C)C(C=C(Br)Br)C1C(=O)OC(C#N)c1cccc(Oc2ccccc2)c1,-7.44,-8.402000000000001
+Cypermethrin,CC1(C)C(C=C(Cl)Cl)C1C(=O)OC(C#N)c1cccc(Oc2ccccc2)c1,-6.775,-8.017000000000001
+Permethrin,CC1(C)C(C=C(Cl)Cl)C1C(=O)OCc1cccc(Oc2ccccc2)c1,-7.129,-6.291
+Cyhalothrin,CC1(C)C(C=C(Cl)C(F)(F)F)C1C(=O)OC(C#N)c1cccc(Oc2ccccc2)c1,-6.905,-8.176
+Fenpropathrin,CC1(C)C(C(=O)OC(C#N)c2cccc(Oc3ccccc3)c2)C1(C)C,-6.15,-6.025
+phenothrin,CC(C)=CC1C(C(=O)OCc2cccc(Oc3ccccc3)c2)C1(C)C,-6.763,-5.24
+Reverse Transcriptase inhibitor 1,CCN1c2ncccc2C(=O)N(C)c2cccnc21,-2.794,-2.62
+RTI 2,CCN1C(=O)c2cccnc2N(CC)c2ncccc21,-3.125,-2.86
+RTI 13,CCN1c2ncccc2C(=O)Nc2c(C(F)(F)F)cc(C)nc21,-4.45,-4.207
+RTI 6,CCN1c2nc(N(C)CCO)ccc2NC(=O)c2cccnc21,-3.335,-3.36
+RTI 12,CCN1c2ncccc2C(=O)N(C)c2ccc(Cl)nc21,-3.446,-4.114
+RTI 15,CCN1c2ncccc2C(=O)Nc2c(C)cc(C)nc21,-3.891,-4.553999999999999
+Etofenprox,CCOc1ccc(C(C)(C)COCc2cccc(Oc3ccccc3)c2)cc1,-6.896,-8.6
+"5,6,7,8-tetrahydro-2-naphthol",Oc1ccc2c(c1)CCCC2,-3.0860000000000003,-1.99
+"1,2,3,4-Tetrahydronapthalene",c1ccc2c(c1)CCCC2,-3.447,-4.37
+Tricresyl phosphate,Cc1ccc(OP(=O)(Oc2cccc(C)c2)Oc2ccccc2C)cc1,-6.39,-6.01
+Dioxacarb,CNC(=O)Oc1ccccc1C1OCCO1,-1.614,-1.57
+Lovastatin,CCC(C)C(=O)OC1CC(C)C=C2C=CC(C)C(CCC3CC(O)CC(=O)O3)C21,-4.731,-6.005
+allopurinol,O=c1[nH]cnc2[nH]ncc12,-0.84,-2.266
+Theophylline,Cn1c(=O)c2[nH]cnc2n(C)c1=O,-1.452,-1.39
+theobromine,Cn1cnc2c1c(=O)[nH]c(=O)n2C,-1.05,-2.523
+Dyphylline,Cn1c(=O)c2c(ncn2CC(O)CO)n(C)c1=O,-0.847,-0.17
+Caffeine,Cn1c(=O)c2c(ncn2C)n(C)c1=O,-1.4980000000000002,-0.8759999999999999
+adrenosterone,CC12CC(=O)C3C(CC=C4CC(=O)CCC43C)C1CCC2=O,-2.99,-3.48
+Kepone,O=C1C2(Cl)C3(Cl)C4(Cl)C(Cl)(Cl)C5(Cl)C3(Cl)C1(Cl)C5(Cl)C24Cl,-5.112,-5.259
+pyracarbolid,CC1=C(C(=O)Nc2ccccc2)CCCO1,-2.83,-2.56
+Deoxycorticosterone,CC12CCC(=O)C=C1CCC1C2CCC2(C)C(C(=O)CO)CCC12,-3.939,-3.45
+Fludrocortisone,CC12CCC(=O)C=C1CCC1C3CCC(O)(C(=O)CO)C3(C)CC(O)C12F,-3.172,-3.43
+17a-Methyltestosterone,CC12CCC(=O)C=C1CCC1C2CCC2(C)C1CCC2(C)O,-4.073,-3.999
+Hydrocortisone ,CC12CCC(=O)C=C1CCC1C2C(O)CC2(C)C1CCC2(O)C(=O)CO,-3.159,-3.09
+aldosterone,CC12CCC(=O)C=C1CCC1C2C(O)CC2(C=O)C(C(=O)CO)CCC12,-3.0660000000000003,-3.85
+Testosterone,CC12CCC(=O)C=C1CCC1C2CCC2(C)C(O)CCC12,-3.659,-4.02
+Corticosterone,CC12CCC(=O)C=C1CCC1C2C(O)CC2(C)C(C(=O)CO)CCC12,-3.454,-3.24
+Camphor,CC12CCC(CC1=O)C2(C)C,-2.158,-1.96
+D-fenchone,CC12CCC(C1)C(C)(C)C2=O,-2.158,-1.85
+Benzo(b)fluorene,c1ccc2c(c1)Cc1cc3ccccc3cc1-2,-5.189,-8.04
+Danazol,C#CC1(O)CCC2C3CCC4=Cc5oncc5CC4(C)C3CCC21C,-4.557,-5.507000000000001
+Methazole,Cn1c(=O)on(-c2ccc(Cl)c(Cl)c2)c1=O,-3.6010000000000004,-2.82
+Flumetralin,CCN(Cc1c(F)cccc1Cl)c1c([N+](=O)[O-])cc(C(F)(F)F)cc1[N+](=O)[O-],-6.584,-6.78
+"Etoposide (148-167,25mg/ml)",COc1cc(C2c3cc4c(cc3C(OC3OC5COC(C)OC5C(O)C3O)C3COC(=O)C23)OCO4)cc(OC)c1O,-3.292,-3.571
+Abate,COP(=S)(OC)Oc1ccc(Sc2ccc(OP(=S)(OC)OC)cc2)cc1,-6.678,-6.237
+Spironolactone,CC(=O)SC1C=C2CC(=O)CCC2(C)C2CCC3(C)C(CCC34CCC(=O)O4)C12,-3.842,-4.173
+Cycloheptane,C1CCCCCC1,-2.9160000000000004,-3.51
+Cycloheptanol,OC1CCCCCC1,-1.7,-0.88
+brompyrazone,Nc1cnn(-c2ccccc2)c(=O)c1Br,-3.005,-3.127
+norflurazon,CNc1cnn(-c2cccc(C(F)(F)F)c2)c(=O)c1Cl,-4.029,-4.046
+Pyrazon,Nc1cnn(-c2ccccc2)c(=O)c1Cl,-2.603,-2.878
+piperonal,O=Cc1ccc2c(c1)OCO2,-2.033,-1.63
+Monotropitoside,COC(=O)c1ccccc1OC1OC(COC2OCC(O)C(O)C2O)C(O)C(O)C1O,-1.493,-0.742
+tubercidin,Nc1ncnc2c1ccn2C1OC(CO)C(O)C1O,-0.892,-1.95
+acetyl sulfisoxazole,CC(=O)N(c1onc(C)c1C)[S+]([O-])c1ccc(N)cc1,-2.024,-3.59
+hematein,Oc1cc2c(cc1O)=C1c3ccc(O)c(O)c3OCC1(O)C=2,-1.795,-2.7
+Tetrafluthrin,Cc1c(F)c(F)c(COC(=O)C2C(C=C(Cl)C(F)(F)F)C2(C)C)c(F)c1F,-6.339,-7.321000000000001
+Triamcinolone,CC12C=CC(=O)C=C1CCC1C3CC(O)C(O)(C(=O)CO)C3(C)CC(O)C12F,-2.734,-3.68
+Prednisolone,CC12C=CC(=O)C=C1CCC1C2C(O)CC2(C)C1CCC2(O)C(=O)CO,-2.974,-3.18
+"2,2,4,6,6'-PCB",Clc1cc(Cl)c(-c2c(Cl)cccc2Cl)c(Cl)c1,-6.545,-7.32
+"2,2',3,4,6-PCB",Clc1ccc(-c2c(Cl)ccc(Cl)c2Cl)c(Cl)c1,-6.627000000000001,-7.43
+3-Chlorobiphenyl,Clc1cccc(-c2ccccc2)c1,-4.685,-4.88
+"2,2',3,3',5,6-PCB",Clc1cccc(-c2c(Cl)c(Cl)cc(Cl)c2Cl)c1Cl,-7.185,-8.6
+"2,2',3,3',5,5',6,6'-PCB",Clc1cc(Cl)c(Cl)c(-c2c(Cl)c(Cl)cc(Cl)c2Cl)c1Cl,-8.304,-9.15
+"2,2'-PCB",Clc1ccccc1-c1ccccc1Cl,-4.984,-5.27
+"2,3',5-PCB",Clc1cccc(-c2cc(Cl)ccc2Cl)c1,-5.7620000000000005,-6.01
+"2,3',4',5-PCB",Clc1ccc(Cl)c(-c2ccc(Cl)c(Cl)c2)c1,-6.312,-7.25
+2-Chlorobiphenyl,Clc1ccccc1-c1ccccc1,-4.5280000000000005,-4.54
+"2,4'-PCB",Clc1ccc(-c2ccccc2Cl)cc1,-5.142,-5.28
+"4,4'-PCB",Clc1ccc(-c2ccc(Cl)cc2)cc1,-5.299,-6.56
+4-Methylbiphenyl,Cc1ccc(-c2ccccc2)cc1,-4.424,-4.62
+"2,2',3,3',4,4',5,5'-PCB",Clc1cc(-c2cc(Cl)c(Cl)c(Cl)c2Cl)c(Cl)c(Cl)c1Cl,-8.468,-9.16
+"2,2',3,4,5-PCB",Clc1cc(Cl)c(-c2cccc(Cl)c2Cl)cc1Cl,-6.709,-7.21
+"2',3,4-PCB",Clc1ccc(-c2cccc(Cl)c2Cl)cc1,-5.686,-6.29
+"3,4-PCB",Clc1ccc(-c2ccccc2)cc1Cl,-5.223,-6.39
+"2,2',3,3'-PCB",Clc1cccc(-c2cccc(Cl)c2Cl)c1Cl,-6.079,-7.28
+p-Phenylphenol,Oc1ccc(-c2ccccc2)cc1,-3.701,-3.48
+"2,2',4,5'-PCB",Clc1ccc(-c2cc(Cl)ccc2Cl)c(Cl)c1,-6.23,-6.57
+"2,3',4,4'-PCB",Clc1ccc(-c2ccc(Cl)c(Cl)c2Cl)c(Cl)c1,-6.709,-7.8
+"2,2',3,3',4,4'-PCB",Clc1ccc(-c2ccc(Cl)c(Cl)c2Cl)c(Cl)c1Cl,-7.192,-8.01
+p-benzidine,Nc1ccc(-c2ccc(N)cc2)cc1,-2.613,-2.7
+"2,3,4,5,6-PCB",Clc1c(Cl)c(Cl)c(-c2ccccc2)c(Cl)c1Cl,-6.785,-7.92
+"2,2',3,3',4,4',5,5',6,6'-PCB",Clc1c(Cl)c(Cl)c(-c2c(Cl)c(Cl)c(Cl)c(Cl)c2Cl)c(Cl)c1Cl,-9.589,-11.6
+"2,2',3,4,4',5',6-PCB",Clc1ccc(-c2c(Cl)c(Cl)c(Cl)c(Cl)c2Cl)c(Cl)c1,-7.898,-7.92
+"2,2',3,4,5,5'-PCB",Clc1ccc(Cl)c(-c2cc(Cl)c(Cl)c(Cl)c2Cl)c1,-7.343,-7.68
+"2,2',3,5'-PCB",Clc1ccc(Cl)c(-c2cccc(Cl)c2Cl)c1,-6.155,-6.47
+"2,2',3,5,5',6-PCB",Clc1ccc(Cl)c(-c2c(Cl)c(Cl)cc(Cl)c2Cl)c1,-7.261,-7.42
+"2,3,3',4,4',5-PCB",Clc1ccc(-c2cc(Cl)c(Cl)c(Cl)c2Cl)cc1Cl,-7.425,-7.82
+Biphenyl,c1ccc(-c2ccccc2)cc1,-4.079,-4.345
+"2,2',4,4',6,6'-PCB",Clc1cc(Cl)c(-c2c(Cl)cc(Cl)cc2Cl)c(Cl)c1,-7.178999999999999,-8.71
+"2,2',3,4,5,5',6-PCB",Clc1ccc(Cl)c(-c2c(Cl)c(Cl)c(Cl)c(Cl)c2Cl)c1,-7.898,-8.94
+"2,4',5-PCB",Clc1ccc(-c2cc(Cl)ccc2Cl)cc1,-5.7620000000000005,-6.25
+"2,3',4,4',5-PCB",Clc1ccc(-c2cc(Cl)c(Cl)c(Cl)c2Cl)c(Cl)c1,-7.343,-7.39
+"2,6-PCB",Clc1cccc(Cl)c1-c1ccccc1,-4.984,-5.21
+"2,4,6-PCB",Clc1ccc(-c2c(Cl)cccc2Cl)cc1,-5.604,-6.14
+"2,2',6,6'-PCB",Clc1cccc(Cl)c1-c1c(Cl)cccc1Cl,-5.915,-7.39
+"2,2',4,4',5,5'-PCB",Clc1cc(Cl)c(-c2cc(Cl)c(Cl)cc2Cl)cc1Cl,-7.343,-8.56
+"2,3,3',4,4'6-PCB",Clc1ccc(-c2c(Cl)cc(Cl)c(Cl)c2Cl)c(Cl)c1Cl,-7.746,-7.66
+Eriodictyol,O=C1CC(c2ccc(O)c(O)c2)Oc2cc(O)cc(O)c21,-3.152,-3.62
+thiamylal,C=CCC1(C(C)CCC)C(=O)NC(=S)NC1=O,-3.063,-3.46
+thiopental,CCCC(C)C1(CC)C(=O)NC(=S)NC1=O,-2.96,-3.36
+isoguanine,Nc1[nH]c(=O)nc2[nH]cnc12,-1.74,-3.401
+Raffinose,OCC1OC(OCC2OC(OC3(CO)OC(CO)C(O)C3O)C(O)C(O)C2O)C(O)C(O)C1O,0.496,-0.41
+ethofumesate,CCOC1Oc2ccc(OS(C)(=O)=O)cc2C1(C)C,-3.184,-3.42
+Carbofuran,CNC(=O)Oc1cccc2c1OC(C)(C)C2,-3.05,-2.8
+Benfuracarb,CCOC(=O)CCN(SN(C)C(=O)Oc1cccc2c1OC(C)(C)C2)C(C)C,-5.132999999999999,-4.71
+Niridazole,O=C1NCCN1c1ncc([N+](=O)[O-])s1,-1.948,-3.22
+Picene,c1ccc2c(c1)ccc1c2ccc2c3ccccc3ccc21,-6.617999999999999,-7.87
+Cholanthrene,c1cc2c3c(c4ccc5ccccc5c4cc3c1)CC2,-5.942,-7.85
+3-Methylcholanthrene,Cc1ccc2c(ccc3c4c5c(cccc5cc32)CC4)c1,-6.311,-7.92
+Methoxsalen,COc1c2occc2cc2ccc(=O)oc12,-3.25,-3.664
+Perylene,c1cc2cccc3c4cccc5cccc(c(c1)c23)c54,-6.007000000000001,-8.804
+Methaqualone,Cc1ccccc1-n1c(C)nc2ccccc2c1=O,-3.881,-2.925
