@@ -1,0 +1,16 @@
+# Data files/folders
+data/
+dataset/
+datasets/
+
+# Checkpoints / trained models
+checkpoint/
+checkpoints/
+*.ckpt
+*.pt
+*.pth
+*.bin
+
+# Cache
+__pycache__/
+*.pyc
