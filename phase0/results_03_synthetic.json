@@ -1,0 +1,129 @@
+{
+  "configs": {
+    "unimol2_570M": [
+      {
+        "config": "unimol2_570M",
+        "batch_size": 128,
+        "n_atoms": 64,
+        "n_params_M": 453.3,
+        "weight_gb": 0.91,
+        "forward_time_s": 0.1016,
+        "ms_per_molecule": 0.79,
+        "peak_mem_gb": 1.82,
+        "oom": false,
+        "chunk_size": 1
+      },
+      {
+        "config": "unimol2_570M",
+        "batch_size": 256,
+        "n_atoms": 64,
+        "n_params_M": 453.3,
+        "weight_gb": 0.91,
+        "forward_time_s": 0.197,
+        "ms_per_molecule": 0.77,
+        "peak_mem_gb": 1.83,
+        "oom": false,
+        "chunk_size": 2
+      },
+      {
+        "config": "unimol2_570M",
+        "batch_size": 512,
+        "n_atoms": 64,
+        "n_params_M": 453.3,
+        "weight_gb": 0.91,
+        "forward_time_s": 0.3936,
+        "ms_per_molecule": 0.77,
+        "peak_mem_gb": 1.83,
+        "oom": false,
+        "chunk_size": 4
+      },
+      {
+        "config": "unimol2_570M",
+        "batch_size": 1024,
+        "n_atoms": 64,
+        "n_params_M": 453.3,
+        "weight_gb": 0.91,
+        "forward_time_s": 0.7847,
+        "ms_per_molecule": 0.77,
+        "peak_mem_gb": 2.73,
+        "oom": false,
+        "chunk_size": 8
+      },
+      {
+        "config": "unimol2_570M",
+        "batch_size": 2048,
+        "n_atoms": 64,
+        "n_params_M": 453.3,
+        "weight_gb": 0.91,
+        "forward_time_s": 1.5637,
+        "ms_per_molecule": 0.76,
+        "peak_mem_gb": 4.54,
+        "oom": false,
+        "chunk_size": 16
+      }
+    ],
+    "unimol2_1100M": [
+      {
+        "config": "unimol2_1100M",
+        "batch_size": 128,
+        "n_atoms": 64,
+        "n_params_M": 906.6,
+        "weight_gb": 1.81,
+        "forward_time_s": 0.2035,
+        "ms_per_molecule": 1.59,
+        "peak_mem_gb": 3.64,
+        "oom": false,
+        "chunk_size": 1
+      },
+      {
+        "config": "unimol2_1100M",
+        "batch_size": 256,
+        "n_atoms": 64,
+        "n_params_M": 906.6,
+        "weight_gb": 1.81,
+        "forward_time_s": 0.3932,
+        "ms_per_molecule": 1.54,
+        "peak_mem_gb": 3.64,
+        "oom": false,
+        "chunk_size": 2
+      },
+      {
+        "config": "unimol2_1100M",
+        "batch_size": 512,
+        "n_atoms": 64,
+        "n_params_M": 906.6,
+        "weight_gb": 1.81,
+        "forward_time_s": 0.7854,
+        "ms_per_molecule": 1.53,
+        "peak_mem_gb": 3.64,
+        "oom": false,
+        "chunk_size": 4
+      },
+      {
+        "config": "unimol2_1100M",
+        "batch_size": 1024,
+        "n_atoms": 64,
+        "n_params_M": 906.6,
+        "weight_gb": 1.81,
+        "forward_time_s": 1.5678,
+        "ms_per_molecule": 1.53,
+        "peak_mem_gb": 3.64,
+        "oom": false,
+        "chunk_size": 8
+      },
+      {
+        "config": "unimol2_1100M",
+        "batch_size": 2048,
+        "n_atoms": 64,
+        "n_params_M": 906.6,
+        "weight_gb": 1.81,
+        "forward_time_s": 3.1315,
+        "ms_per_molecule": 1.53,
+        "peak_mem_gb": 5.45,
+        "oom": false,
+        "chunk_size": 16
+      }
+    ]
+  },
+  "device_memory_gb": 17.09
+}

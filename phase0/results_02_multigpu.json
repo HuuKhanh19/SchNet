@@ -1,0 +1,14 @@
+{
+  "nccl_in_build": false,
+  "gloo_in_build": true,
+  "gloo": {
+    "backend": "gloo",
+    "available_in_build": true,
+    "error": "RuntimeError: makeDeviceForHostname(): unsupported gloo device"
+  },
+  "nccl": {
+    "backend": "nccl",
+    "available_in_build": false
+  },
+  "recommend_backend": null
+}

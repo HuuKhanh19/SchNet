@@ -1,0 +1,39 @@
+{
+  "pytorch": "2.8.0+cu129",
+  "cuda_available": true,
+  "cuda_built": "12.9",
+  "cudnn": 91002,
+  "device_count": 2,
+  "gpus": [
+    {
+      "index": 0,
+      "name": "NVIDIA GeForce RTX 5070 Ti",
+      "memory_gb": 17.09,
+      "compute_capability": "12.0",
+      "sm_count": 70,
+      "cc_supports_bf16_native": true
+    },
+    {
+      "index": 1,
+      "name": "NVIDIA GeForce RTX 5070 Ti",
+      "memory_gb": 17.09,
+      "compute_capability": "12.0",
+      "sm_count": 70,
+      "cc_supports_bf16_native": true
+    }
+  ],
+  "bf16_ok": true,
+  "alloc_1gb_ok": true,
+  "matmul_tflops": [
+    {
+      "gpu": 0,
+      "tflops": 98.9
+    },
+    {
+      "gpu": 1,
+      "tflops": 83.6
+    }
+  ],
+  "cross_gpu_bandwidth_gbs": 16.82,
+  "pass": true
+}

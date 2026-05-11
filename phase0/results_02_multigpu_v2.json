@@ -1,0 +1,7 @@
+{
+  "use_libuv": false,
+  "tcp_result": null,
+  "file_result": null,
+  "method_used": null,
+  "recommend_backend": null
+}

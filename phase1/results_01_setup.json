@@ -1,0 +1,36 @@
+{
+  "unicore": {
+    "ok": true,
+    "msg": "unicore version: 0.0.1"
+  },
+  "unimol2": {
+    "ok": true,
+    "msg": "Imported from: unimol2.models.unimol2"
+  },
+  "conformer": {
+    "ok": false,
+    "msg": "ConformerGen not found. Check unimol2.data path or unimol_tools install."
+  },
+  "lipo": {
+    "ok": true,
+    "path": "C:\\Users\\BKAI\\ducluong\\DrugOptimization\\SchNet\\data\\data_split\\lipo\\seed_0",
+    "msg": "Lipo data found at: C:\\Users\\BKAI\\ducluong\\DrugOptimization\\SchNet\\data\\data_split\\lipo\\seed_0"
+  },
+  "checkpoint": {
+    "ok": true,
+    "path": "C:\\Users\\BKAI\\ducluong\\DrugOptimization\\SchNet\\checkpoints\\unimol2_570m_pretrain.pt",
+    "msg": "C:\\Users\\BKAI\\ducluong\\DrugOptimization\\SchNet\\checkpoints\\unimol2_570m_pretrain.pt (2281.4 MB)"
+  },
+  "construct": {
+    "ok": true,
+    "msg": "Model constructed. Total params: 567.7M"
+  },
+  "load_checkpoint": {
+    "ok": true,
+    "msg": "Loaded 1276 keys, 6 unexpected (showing first 3): ['lm_head.weight', 'lm_head.bias', 'lm_head.dense.weight']"
+  },
+  "forward": {
+    "ok": true,
+    "msg": "Output x shape: (2, 17, 1536)\n   pair shape: (2, 17, 17, 512)\n   CLS embed (x[:, 0, :]) shape: (2, 1536)\n   CLS embed dtype: torch.bfloat16\n   Embed values (first 3): [6.53125, 5.25, 7.28125]"
+  }
+}
