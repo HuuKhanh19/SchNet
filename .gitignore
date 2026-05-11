@@ -14,3 +14,7 @@ checkpoints/
 # Cache
 __pycache__/
 *.pyc
+# Generated cache files
+phase1/cache/
+phase*/cache/
+*.pkl
